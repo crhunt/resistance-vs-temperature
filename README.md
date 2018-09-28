@@ -10,6 +10,7 @@ Hardware Requirements
 ---------------------
 
 Temperature Control: LakeShore 331
+
 SourceMeter: Keithley 26XX series (tested with 2635A)
 
 Labview vi Requirements
@@ -24,12 +25,13 @@ Communicating with LakeShore 331 temperature controller:
 - lsci331u.llb
 - lsci331.llb
 - LS331-temp-cntrlvi.vi
-- Lake Shore Cryotronics 331.lvlib (for Labview 8.5)
+- Lake Shore Cryotronics 331.lvlib
 
-Source: http://sine.ni.com/apps/utf8/niid_web_display.download_page?p_id_guid=7094CC81B2146DD9E04400144FB7D21D
+Source: (for LabView 8.2) http://sine.ni.com/apps/utf8/niid_web_display.download_page?p_id_guid=7094CC81B2146DD9E04400144FB7D21D
 
 Communicating with Keithley 26XX sourcemeter:
 - KE26XX.lvlib
 - KE26XX-SM-close.vi
+- KE26XX-SM-init.vi
 
 Source: https://www.tek.com/source-measure-units/2635-software/keithley-series-2600-2600a-2600b-native-labview-2009-instrument-d
